@@ -5,7 +5,7 @@ from faker import Faker
 
 fake = Faker()
 
-keywords = [fake.word() for _ in range(1000)]
+keywords = [fake.word() for _ in range(30)]
 
 for keyword in keywords:
 
